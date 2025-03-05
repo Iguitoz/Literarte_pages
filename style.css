@@ -61,7 +61,7 @@ main{
 /* Container do carrossel */
 .carrossel {
     width: 70%; /* Largura do carrossel */
-    max-width: 900px; /* Largura máxima */
+    max-width: 970px; /* Largura máxima */
     overflow: hidden; /* Esconde as imagens que estão fora do container */
     border: 5px solid #1C0221;
     border-radius: 10px;
