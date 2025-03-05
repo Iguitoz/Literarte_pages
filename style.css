@@ -19,7 +19,7 @@ main{
 .cabecalho {
     height: 24em;
     display: flex;
-    padding: 10px;
+    padding: 5px;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
@@ -31,7 +31,7 @@ main{
     background-position: center;
     background-size: cover;
     height: 18em;
-    min-width: 22%;
+    width: 22%;
     border-radius: 50%;
     margin-left: 5px;
     border: 2px solid var(--cor-roxo);
@@ -65,8 +65,8 @@ main{
     overflow: hidden; /* Esconde as imagens que estão fora do container */
     border: 5px solid #1C0221;
     border-radius: 10px;
-    position: relative;
-    margin: -30px auto 0;   
+    margin: -30px auto 0;
+    position: relative;  
 }
 
 /* Container das imagens */
@@ -74,19 +74,20 @@ main{
     display: flex;
     width: 400%; /* 100% para cada imagem (4 imagens = 400%) */
     animation: carrossel-animacao 20s infinite; /* Animação do carrossel */
+     
     
 }
 
 /* Estilo de cada item do carrossel */
 .carrossel-item {
-    height: 33em;
+    height: 30em;
     width: 100%; /* Cada item ocupa 100% da largura do container */
     flex: 0 0 auto;
     background-color: #FFA69E;
 }
 
 .carrossel-item img {
-    height: 33em;
+    height: 30em;
     width: 25%;
     display: block;
 }
